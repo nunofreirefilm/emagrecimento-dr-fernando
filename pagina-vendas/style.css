@@ -2163,15 +2163,14 @@ h6 {
 .mec-container {
     display: flex;
     align-items: center;
-    gap: 60px; /* Aumentado de 48px */
-    max-width: 1000px; /* Aumentado de 900px */
-    margin: 40px auto;
-    padding: 60px; /* Aumentado de 48px */
+    gap: 48px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px;
     background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(212, 175, 55, 0.2); /* Usando gold-primary com opacidade */
-    border-radius: 24px;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(236, 164, 0, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 
 .mec-badge {
@@ -2179,11 +2178,11 @@ h6 {
 }
 
 .mec-img {
-    width: 280px; /* Sincronizado com o HTML */
-    height: auto;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
-    border-radius: 16px;
-    filter: drop-shadow(0 10px 30px rgba(212, 175, 55, 0.3)); /* Shadow mais forte */
+    border-radius: 12px;
+    filter: drop-shadow(0 4px 20px rgba(236, 164, 0, 0.2));
 }
 
 .mec-content {
@@ -2215,17 +2214,17 @@ h6 {
     .mec-container {
         flex-direction: column;
         text-align: center;
-        gap: 32px;
-        padding: 40px 24px;
-        margin: 20px 20px;
+        gap: 28px;
+        padding: 32px 24px;
     }
 
     .mec-img {
-        width: 200px; /* Aumentado de 150px no mobile */
+        width: 150px;
+        height: 150px;
     }
 
     .mec-title {
-        font-size: 1.6rem; /* Aumentado de 1.4rem */
+        font-size: 1.4rem;
     }
 
     .mec-text {
