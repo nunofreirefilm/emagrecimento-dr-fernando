@@ -2149,3 +2149,89 @@ h6 {
         font-size: 0.95rem !important;
     }
 }
+
+/* =============================================
+   Seção Certificação MEC
+   ============================================= */
+
+.mec-section {
+    padding: 80px 0;
+    background: #0a0a0a;
+    position: relative;
+}
+
+.mec-container {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(236, 164, 0, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.mec-badge {
+    flex-shrink: 0;
+}
+
+.mec-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 12px;
+    filter: drop-shadow(0 4px 20px rgba(236, 164, 0, 0.2));
+}
+
+.mec-content {
+    flex: 1;
+}
+
+.mec-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: #fff;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.mec-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .mec-section {
+        padding: 60px 0;
+    }
+
+    .mec-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 28px;
+        padding: 32px 24px;
+    }
+
+    .mec-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .mec-title {
+        font-size: 1.4rem;
+    }
+
+    .mec-text {
+        font-size: 0.93rem;
+    }
+
+    .mec-container .gold-line {
+        margin: 0 auto 20px auto !important;
+    }
+}
