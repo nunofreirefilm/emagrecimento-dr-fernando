@@ -297,7 +297,7 @@
 
 ### Conteúdo
 - **Local:** 📍 Alphaville – São Paulo | 📅 08 e 09 de Maio. Treinamento presencial com networking.
-- **Preço:** Formação completa. R$ 8.000 ou 10x sem juros. Destaque: 💰 10% de desconto para pagamento via Pix.
+- **Preço:** Formação completa. R$ 10.000 ou 10x sem juros. Destaque: 💰 10% de desconto para pagamento via Pix.
 
 ### Layout
 - Fundo totalmente preto `#000` (quebra do `bg-dark`), com um "holofote" desenhado em CSS Radial Gradient central no topo do card de preço.

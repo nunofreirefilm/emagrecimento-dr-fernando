@@ -113,7 +113,7 @@
 - Título: Investimento
 - Conteúdo:
   - Formação completa
-  - R$ 8.000 ou 10x sem juros
+  - R$ 10.000 ou 10x sem juros
   - 💰 10% de desconto para pagamento via Pix
 
 ## Seção: Escassez
